@@ -1,0 +1,141 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hiii",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+	        "Hii"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "events",
+        "patterns": [
+          "What kind of events do you have?",
+          "What are the available events?"
+        ],
+        "responses": [
+          "We have different events like 1. Chess Connect 2. Capricio live"
+        ]
+      },
+      {
+        "tag": "Chess Connect",
+        "patterns": [
+          "Details about Chess Connect",
+          "What is the ticket price for Chess Connect?"
+        ],
+        "responses": [
+          "Chess Connect is an event that is held at Banglore. The tickect costs 500 INR"
+        ]
+      },
+      {
+        "tag": "Capricio live",
+        "patterns": [
+          "Details about Capricio live",
+          "What is the ticket price for Capricio live?"
+        ],
+        "responses": [
+          "Capricio live is an event that is held at Banglore. The tickect costs 650 INR"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "What are the payment options available?",
+          "What kinds of payments you accept?",
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "Do you accept Phonepe, Gpay and Paytm?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+	        "We accept online payments through debit cards,credit cards and net banking"
+        ]
+      },
+      
+      {
+          "tag": "promotion",
+          "patterns": [
+            "What event promotion features do you have?"
+          ],
+          "responses": [
+            "1.Social media sharing tools on event page 2.Facebook commenting integrated into event page and user profile 3. Facebook RSVP list that directly displays attendees and drives traffic to your event page 4. Network ticket selling: Tap your attendees to sell tickets for you"
+          ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "What are the fees using Eventbee service?"
+        ],
+        "responses": [
+          "1. Flat Service Fee 2. Credit Card Processing Fees"
+        ]
+    },
+    {
+      "tag": "ticket sale proceeds",
+      "patterns": [
+        "When do I receive ticket sale proceeds?"
+      ],
+      "responses": [
+        "If you are using Stripe, Instamojo, Razorpay or PayPal for credit card processing, money instantly goes to your account."
+      ]
+  },
+  {
+    "tag": "switching",
+    "patterns": [
+      "How much do I save by switching to Eventbee?"
+    ],
+    "responses": [
+      "Most customers save a huge amount of money by switching to Eventbee."
+    ]
+  },
+  {
+    "tag": "contract",
+    "patterns": [
+      "Do I have to sign a contract with Eventbee to get started?"
+    ],
+    "responses": [
+      "No. We value your flexibility, and we are confident that once you begin using Eventbee, you won't want to switch! We don't lock our customers into contracts."
+    ]
+  },
+  {
+    "tag": "support team",
+    "patterns": [
+      "I have more questions, who do I contact?",
+      "Want to contact support team.",
+      "Need help of support team."
+    ],
+    "responses": [
+      "You can contact us through following support@eventbee.com"
+    ]
+  }
+  
+    ]
+  }
