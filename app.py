@@ -7,7 +7,9 @@ Created on Mon Jun 12 16:28:32 2023
 
 from flask import Flask, render_template,request,jsonify
 from chat import get_response
+from flask_cors import CORS
 app=Flask(__name__)
+CORS(app)
 #@app.get("/")
 @app.route("/",methods=["GET"])
 def index_get():
