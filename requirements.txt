@@ -64,3 +64,5 @@ watchdog==3.0.0
 Werkzeug==2.3.6
 zipp==3.16.2
 gunicorn
+Flask==2.0.1
+requests==2.26.0
