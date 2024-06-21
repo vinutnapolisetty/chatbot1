@@ -65,4 +65,5 @@ Werkzeug==2.3.6
 zipp==3.16.2
 gunicorn
 Flask==2.0.1
+flask_cors
 nltk==3.6.5
